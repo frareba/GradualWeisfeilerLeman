@@ -1,0 +1,2 @@
+#!/bin/bash
+java -Xmx100g -cp bin:kgraph.jar/:lib/jcommander-1.58.jar cli.KVec "$@"

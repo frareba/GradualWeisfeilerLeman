@@ -1,0 +1,2 @@
+#!/bin/bash
+java -cp bin/:kgraph.jar:lib/jcommander-1.58.jar:lib/libsvm.jar cli.KPredict "$@"

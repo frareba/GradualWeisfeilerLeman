@@ -1,0 +1,2 @@
+#!/bin/bash
+java -Xmx20g -cp bin:kgraph.jar/:lib/jcommander-1.58.jar:lib/elki-bundle-0.7.6-SNAPSHOT.jar:lib/heaps-2.0.jar cli.KKernel "$@"
